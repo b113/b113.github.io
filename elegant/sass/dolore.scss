@@ -1,0 +1,74 @@
+@import 'variables';
+.dolore {
+	width: 100%;
+	// 		max-width: 1600px;
+	background: url("../img/dolore-img.png") no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	// 	padding: 50px 0 45px;
+	&__title {
+		color: #ffffff;
+		font-family: $font-lato;
+		font-size: 45px;
+		font-weight: 400;
+		text-transform: uppercase;
+		padding-top: 166px;
+	}
+	&__text {
+		color: #ffffff;
+		font-family: $font-lato;
+		font-size: 22px;
+		font-weight: 100;
+		line-height: 28px;
+		margin-bottom: 60px;
+		margin-top: 2px;
+		width: 516px;
+	}
+	&__link-more {
+		color: #ffffff;
+		font-family: $font-lato;
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 28px;
+		text-decoration: underline;
+		display: inline-block;
+		-webkit-transform: perspective(1px) translateZ(0);
+		transform: perspective(1px) translateZ(0);
+		box-shadow: 0 0 1px transparent;
+		position: relative;
+		overflow: hidden;
+		&:before {
+			content: "";
+			position: absolute;
+			z-index: 1;
+			left: 0;
+			right: 100%;
+			bottom: 4px;
+			background: #ffffff;
+			height: 4px;
+			-webkit-transition-property: right;
+			transition-property: right;
+			-webkit-transition-duration: 0.3s;
+			transition-duration: 0.3s;
+			-webkit-transition-timing-function: ease-out;
+			transition-timing-function: ease-out;
+		}
+		&:hover:before,
+		&:focus:before,
+		&:active:before {
+			right: 0;
+		}
+	}
+	&__iphone {
+		vertical-align: bottom;
+		margin-left: 10px;
+		padding-left: 5px;
+		padding-top: 75px;
+	}
+}
+
+.dolore .row {
+	display: flex;
+}
