@@ -1,0 +1,15 @@
+@import 'variables';
+@mixin titles {
+	text-align: center;
+	font-family: $font-raleway;
+	font-size: 35px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+
+@mixin lines {
+	text-align: center;
+	width: 86px;
+	height: 2px;
+}

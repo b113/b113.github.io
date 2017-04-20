@@ -1,0 +1,39 @@
+@import 'variables';
+@import 'mixins';
+.services {
+	padding: 109px 0 139px;
+	&__title {
+		@include titles;
+		color: #222222;
+		margin-bottom: 66px;
+	}
+	&__line {
+		@include lines;
+		background-color: #222222;
+		margin: $center; // for IE
+		margin-bottom: 78px;
+	}
+}
+
+.service-item {
+	text-align: center;
+	color: #222222;
+	font-family: $font-lato;
+	font-weight: 400;
+	width: 373px;
+	&__img {
+		margin-bottom: 37px;
+	}
+	&__title {
+		font-size: 24px;
+		line-height: 24px;
+		margin-bottom: 29px;
+	}
+	&__desc {
+		font-size: 16px;
+		line-height: 30px;
+	}
+	&__img--responsive {
+		padding-left: 6px;
+	}
+}

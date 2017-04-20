@@ -1,0 +1,19 @@
+ body,
+ html {
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ }
+ 
+ * {
+ 	box-sizing: border-box;
+ }
+ 
+ @import 'grid';
+ @import 'header';
+ @import 'services';
+ @import 'dolore';
+ @import 'work';
+ @import 'footer';
+ @import 'variables';
+ @import 'mixins';

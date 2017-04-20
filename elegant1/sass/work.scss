@@ -1,0 +1,100 @@
+@import 'variables';
+@import 'mixins';
+.work {
+	padding: 111px 0 80px;
+	&__title {
+		@include titles;
+		color: #222222;
+		margin-bottom: 65px;
+	}
+	&__line {
+		@include lines;
+		background-color: #222222;
+		margin: $center; // for IE
+		margin-bottom: 90px;
+	}
+	&-item {
+		display: block;
+		width: 370px;
+		height: 420px;
+		position: relative;
+		&--kinderen-planet {
+			background-image: url(../img/planet.png);
+		}
+		&--jetindus-airlines {
+			background-image: url(../img/airlines.png);
+		}
+		&--trimplement {
+			background-image: url(../img/trimplement.png);
+		}
+		&__overlay {
+			width: 370px;
+			height: 420px;
+			background-color: #000000;
+			opacity: 0;
+		}
+		&__title {
+			color: #ffffff;
+			font-family: $font-lato;
+			font-size: 22px;
+			font-weight: 400;
+			text-transform: uppercase;
+			position: absolute;
+			top: 48%;
+			left: 45%;
+			transform: translate(-41%, -107%);
+			opacity: 0;
+		}
+		&__link-chain {
+			position: absolute;
+			bottom: 143px;
+			left: 164px;
+			opacity: 0;
+		}
+	}
+}
+
+.work-item:hover {
+	.work-item__overlay {
+		opacity: 0.75;
+	}
+	.work-item__link-chain {
+		opacity: 0.9;
+	}
+	.work-item__title {
+		opacity: 1;
+	}
+}
+
+.work .row:nth-child(2) {
+	margin-bottom: 79px;
+}
+
+.work__button {
+	width: 370px;
+	height: 60px;
+	border: 3px solid #222222;
+	display: block;
+	margin: $center;
+	color: #222222;
+	font-family: $font-lato;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 60px;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px transparent;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	&:hover,
+	&:focus,
+	&:active {
+		-webkit-transform: scale(1.2);
+		transform: scale(1.2);
+		-webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+		transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+	}
+}
