@@ -1,0 +1,110 @@
+@import '_variables';
+@import 'mixins';
+.header {
+	@include width;
+	background-color: #1d2124;
+	color: #ffffff;
+	//	height: 69px;
+}
+
+.nav {
+	display: flex;
+}
+
+.dd-menu {
+	display: flex;
+	flex-direction: column;
+	width: 84px;
+	height: 69px;
+	background-color: $bg-color;
+	text-align: center;
+	padding-top: 16px;
+	font-size: 14px;
+	font-weight: 600;
+	color: $color-white;
+	text-decoration: none;
+	&__item {
+		align-self: center;
+		margin-bottom: 6px;
+	}
+}
+
+.header .wrapper {
+	width: 1186px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	font-size: 22px;
+	font-weight: 700;
+	&__img {
+		margin-top: -2px;
+	}
+	&__text {
+		padding-left: 17px;
+		margin-top: -5px;
+	}
+}
+
+.menu-horiz {
+	display: flex;
+	align-items: center;
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	&__list {
+		margin-right: 35px;
+		margin-top: -3px;
+		&_first {
+			margin-left: 83px;
+		}
+	}
+	&__link {
+		color: $color-white;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.social-buttons {
+	display: flex;
+	height: 69px;
+	align-items: center;
+	margin-left: 48px;
+	&__link {
+		width: 25px;
+		height: 27px;
+		display: block;
+		&_twitter {
+			background: url(../img/social-pepsi.png) no-repeat 0% 23%;
+		}
+		&_fb {
+			background: url(../img/social-pepsi.png) no-repeat 53% 24%;
+		}
+		&_gplus {
+			background: url(../img/social-pepsi.png) no-repeat 107% 33%;
+		}
+	}
+}
+
+.search {
+	display: flex;
+	width: 69px;
+	height: 69px;
+	background-color: $bg-color;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	&__btn {
+		align-self: center;
+		display: block;
+		background: url(../img/search-btn.png) no-repeat 52% 47%;
+		width: 69px;
+		height: 69px;
+	}
+}
