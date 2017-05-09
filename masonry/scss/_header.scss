@@ -80,6 +80,7 @@
 		width: 25px;
 		height: 27px;
 		display: block;
+		
 		&_twitter {
 			background: url(../img/social-pepsi.png) no-repeat 0% 23%;
 		}
@@ -89,6 +90,9 @@
 		&_gplus {
 			background: url(../img/social-pepsi.png) no-repeat 107% 33%;
 		}
+	}
+	&__link:hover {
+		transform: scale(1.3);
 	}
 }
 
