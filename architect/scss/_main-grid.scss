@@ -1,5 +1,5 @@
 @import '_variables';
-@import 'mixins';
+@import '_mixins';
 .ad {
 	@include width;
 	&__horiz {
@@ -105,7 +105,8 @@
 	padding-top: 2px;
 	text-decoration: none;
 	&:hover {
-		transform: scale(1.1);
+		//		transform: scale(1.1);
+		//		background-color: #fff;
 	}
 	&__logo {
 		width: 36px;
@@ -116,15 +117,43 @@
 		border-radius: 5px 0px 0px 5px;
 		&_fb {
 			background-color: #39579a;
+			border: 1px solid #39579a;
+			&:hover {
+				background-color: #fff;
+				color: #39579a;
+			}
 		}
 		&_twitter {
 			background-color: #31c1fa;
+			border: 1px solid #31c1fa;
+			&:hover {
+				background-color: #fff;
+				color: #31c1fa;
+			}
 		}
 		&_gplus {
 			background-color: #f13f35;
+			border: 1px solid #f13f35;
+			&:hover {
+				background-color: #fff;
+				color: #f13f35;
+			}
+			& i {
+				text-align: center;
+				margin-left: 8px;
+			}
 		}
 		&_pinterest {
 			background-color: #dd2235;
+			border: 1px solid #dd2235;
+			&:hover {
+				background-color: #fff;
+				color: #dd2235;
+			}
+			& i {
+				text-align: center;
+				margin-left: 9px;
+			}
 		}
 	}
 	&__counter {
@@ -163,7 +192,7 @@
 	&__overlay {
 		opacity: 0;
 		width: 100%;
-		height: 100%;
+		height: 98%;
 		position: absolute;
 		background-color: #000000;
 	}

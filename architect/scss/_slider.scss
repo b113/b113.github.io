@@ -1,5 +1,5 @@
 @import '_variables';
-@import 'mixins';
+@import '_mixins';
 .slider-big {
 	display: flex;
 	@include width;

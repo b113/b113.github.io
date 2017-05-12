@@ -18,8 +18,8 @@ animation: swing 1s ease;
  @import '_slider';
  @import '_main-grid';
  @import '_footer';
- @import 'variables';
- @import 'mixins';
+ @import '_variables';
+ @import '_mixins';
 
 @-webkit-keyframes swing
 {

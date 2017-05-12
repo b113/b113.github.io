@@ -304,8 +304,6 @@ button:hover {
   text-align: center;
   padding-top: 2px;
   text-decoration: none; }
-  .share-item:hover {
-    transform: scale(1.1); }
   .share-item__logo {
     width: 36px;
     height: 24px;
@@ -314,13 +312,35 @@ button:hover {
     font-weight: 500;
     border-radius: 5px 0px 0px 5px; }
     .share-item__logo_fb {
-      background-color: #39579a; }
+      background-color: #39579a;
+      border: 1px solid #39579a; }
+      .share-item__logo_fb:hover {
+        background-color: #fff;
+        color: #39579a; }
     .share-item__logo_twitter {
-      background-color: #31c1fa; }
+      background-color: #31c1fa;
+      border: 1px solid #31c1fa; }
+      .share-item__logo_twitter:hover {
+        background-color: #fff;
+        color: #31c1fa; }
     .share-item__logo_gplus {
-      background-color: #f13f35; }
+      background-color: #f13f35;
+      border: 1px solid #f13f35; }
+      .share-item__logo_gplus:hover {
+        background-color: #fff;
+        color: #f13f35; }
+      .share-item__logo_gplus i {
+        text-align: center;
+        margin-left: 8px; }
     .share-item__logo_pinterest {
-      background-color: #dd2235; }
+      background-color: #dd2235;
+      border: 1px solid #dd2235; }
+      .share-item__logo_pinterest:hover {
+        background-color: #fff;
+        color: #dd2235; }
+      .share-item__logo_pinterest i {
+        text-align: center;
+        margin-left: 9px; }
   .share-item__counter {
     width: 36px;
     color: #a3a3a3;
@@ -352,7 +372,7 @@ button:hover {
   .gallery__overlay {
     opacity: 0;
     width: 100%;
-    height: 100%;
+    height: 98%;
     position: absolute;
     background-color: #000000; }
   .gallery__item:hover .gallery__overlay {

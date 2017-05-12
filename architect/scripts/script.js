@@ -1,4 +1,13 @@
-$('.grid').masonry({
+
+
+ 
+;(function ($) {
+
+ 
+   // Scripts that will run after the whole page is loaded (images, videos, iframes. etc)
+   $(window).on('load', function () {
+	   
+	 $('.grid').masonry({
 	// options
 	itemSelector: '.grid-item',
 	//  columnWidth: 200
@@ -39,6 +48,10 @@ $('.slider-small').slick({
 	infinite: true
 
 
-});
-
+});  
+     
+   });
  
+ 
+ 
+})(jQuery); // Fully reference jQuery after this point.
