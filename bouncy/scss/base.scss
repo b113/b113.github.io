@@ -1,24 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Sans+Pro:300'); 
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Sans+Pro:300');
 body,
- html {
- 	margin: 0;
- 	padding: 0;
- 	box-sizing: border-box;
- }
- 
- * {
- 	box-sizing: border-box;
- }
+html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
- @import '_header';
- @import '_portfolio';
- @import '_team';
+* {
+	box-sizing: border-box;
+}
+
+@import '_header';
+@import '_portfolio';
+@import '_team';
 @import '_contacts-button';
 @import '_testimonials';
- @import '_variables';
- @import '_mixins';
+@import '_variables';
+@import '_mixins';
 @import '_contacts';
 @import '_footer';
-
-
