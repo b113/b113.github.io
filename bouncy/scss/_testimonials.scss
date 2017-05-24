@@ -1,0 +1,90 @@
+@import '_variables';
+.testimonials {
+	background-color: #f3f3f3;
+	&__inner {
+		width: 1366px;
+		padding: 74px 97px;
+		padding-bottom: 70px;
+		margin: 0 auto;
+	}
+	&__header {
+		text-align: center;
+		color: #333b46;
+		font-family: $font-sansPro;
+		font-size: 20px;
+		font-weight: 300;
+		text-transform: uppercase;
+		margin-bottom: 30px;
+		letter-spacing: 4px;
+		margin-left: 13px;
+	}
+	&__desc {
+		color: #81868e;
+		font-family: $font-openSans;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 25px;
+		width: 457px;
+		text-align: center;
+		margin: 0 auto;
+		margin-bottom: 57px;
+	}
+}
+
+.testimonials-slider {
+	width: 1170px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	&__item {
+		height: 316px;
+		display: flex !important;
+		//		    padding: 0px 0px 82px 96px;
+		padding-left: 96px;
+		padding-top: 52px;
+	}
+	&__img {
+		align-self: center;
+		align-self: flex-start;
+	}
+	&__about {
+		text-align: left;
+		//		height: 138px;
+	}
+	&__headline {
+		font-family: $font-openSans;
+		padding: 22px 0 0px 69px;
+		letter-spacing: 1px;
+		margin: 0;
+		color: #19bd9a;
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 20px;
+		text-transform: uppercase;
+	}
+	&__position {
+		padding: 3px 0 0 68px;
+		letter-spacing: 1px;
+		margin: 0;
+		padding: 3px 19px 24px 68px;
+		color: #464646;
+		font-family: $font-openSans;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 20px;
+		text-transform: uppercase;
+	}
+	&__desc {
+		color: #81868e;
+		font-family: "Open Sans";
+		font-size: 16px;
+		font-weight: 400;
+		padding-right: 90px;
+		padding-left: 67px;
+		line-height: 28px;
+		margin: 0;
+	}
+}
+
+.testimonials .slick-dots {
+	bottom: 57px;
+}

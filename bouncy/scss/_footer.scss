@@ -1,0 +1,74 @@
+@import '_variables';
+.footer {
+	&__logo {
+		margin: 0 auto;
+		display: block;
+	}
+	&__copyright {
+		text-align: center;
+		color: #81868e;
+		font-family: $font-openSans;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 25px;
+		margin-bottom: 20px;
+		margin-top: 18px;
+		letter-spacing: 1px;
+	}
+}
+
+.social-buttons {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin-bottom: 50px;
+	&__item {
+		margin: 13px 3px 0px 6px;
+		color: #ffffff;
+		width: 27px;
+		height: 27px;
+		line-height: 27px;
+		border-radius: 50%;
+		transition: all 0.2s linear 0.1s;
+		&_fb {
+			background-color: #3a5997;
+			border: 1px solid #3a5997;
+			&:hover {
+				background-color: white;
+				color: #3a5997;
+			}
+		}
+		&_twitter {
+			background-color: #2ca8d0;
+			border: 1px solid #2ca8d0;
+			&:hover {
+				background-color: white;
+				color: #3a5997;
+			}
+		}
+		&_linkedin {
+			background-color: #1377a7;
+			border: 1px solid #1377a7;
+			&:hover {
+				background-color: white;
+				color: #1377a7;
+			}
+		}
+		&_instagram {
+			background-color: #3f739b;
+			border: 1px solid #3f739b;
+			&:hover {
+				background-color: white;
+				color: #3f739b;
+			}
+		}
+		&_vimeo {
+			background-color: #89cbee;
+			border: 1px solid #89cbee;
+			&:hover {
+				background-color: white;
+				color: #89cbee;
+			}
+		}
+	}
+}

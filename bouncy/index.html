@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Bouncy</title>
+	<!--	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.css">-->
+
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" type="text/css" href="styles/slick.css" />
+
+	<link rel="stylesheet" type="text/css" href="styles/slick-theme.css" />
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+
+	<link rel="stylesheet" href="styles/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" href="styles/animate.css">
+
+
+</head>
+
+<body>
+
+	<header class="header" id="bouncy">
+		<div class="header__inner">
+			<nav class="nav fixed">
+				<img class="nav__logo" src="img/logo.png" alt="Bouncy">
+				<ul class="nav__menu">
+					<li class="nav__item"><a href="#bouncy" class="nav__link">Hello</a></li>
+					<li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+					<li class="nav__item"><a href="#team" class="nav__link">Team</a></li>
+					<li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+				</ul>
+				<a href="#bouncy" class="nav__link-top"></a>
+			</nav>
+			<h1 class="header__headline">we are code cafe</h1>
+			<p class="header__desc">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+			<a href="#portfolio" class="header__scroll-down">
+
+				<!--
+			<img src="img/button-header.png" alt="" class="header__scroll-down-image">
+			
+-->
+
+				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36px" height="36px" viewBox="0 0 36 36">
+<circle cx="18.00" cy="18.00" r="18.00" fill="rgb(25,189,153)"/><image x="12" y="15" width="12" height="7" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAHCAQAAACWu2SvAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAA6SURBVAjXY/gf+l/wPwMaTPvPwPB/5v8zaFIz/5/5LwhnoAr/Z0DhILNQ1SHpRTb5HbKRyJaWIzsCADvrYxX3Rg0eAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE3LTA1LTIzVDE2OjAyOjM4KzAwOjAwWKFvEgAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNy0wNS0yM1QxNjowMjozOCswMDowMCn8164AAAAASUVORK5CYII=" /></svg>
+
+			</a>
+		</div>
+	</header>
+
+	<section  class="portfolio wow zoomIn" id="portfolio" data-wow-offset="10">
+		<div class="portfolio__inner">
+			<h2 class="portfolio__header">the portfolio</h2>
+			<p class="portfolio__desc">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+
+			</p>
+
+			<div class="portfolio-gallery">
+				<div class="portfolio-gallery__nav">
+					<button data-filter="*" class="portfolio-gallery__nav-item">All Works</button>
+					<button data-filter=".print" class="portfolio-gallery__nav-item">Print</button>
+					<button data-filter=".branding" class="portfolio-gallery__nav-item">Branding</button>
+					<button data-filter=".web" class="portfolio-gallery__nav-item">Web</button>
+					<button data-filter=".html" class="portfolio-gallery__nav-item">HTML</button>
+				</div>
+
+				<div class="portfolio-gallery__grid">
+					<div class="portfolio-gallery__grid-item html print"><img src="img/gal-1.png" alt="Gallery" class="portfolio-gallery__grid-img"></div>
+					<div class="portfolio-gallery__grid-item print branding"><img src="img/gal-2.png" alt="Gallery" class="portfolio-gallery__grid-img"></div>
+					<div class="portfolio-gallery__grid-item branding"><img src="img/gal-3.png" alt="Gallery" class="portfolio-gallery__grid-img"></div>
+					<div class="portfolio-gallery__grid-item print branding"><img src="img/gal-4.png" alt="Gallery" class="portfolio-gallery__grid-img"></div>
+					<div class="portfolio-gallery__grid-item html branding"><img src="img/gal-6.png" alt="Gallery" class="portfolio-gallery__grid-img"></div>
+					<div class="portfolio-gallery__grid-item html"><img src="img/gal-7.png" alt="Gallery" class="portfolio-gallery__grid-img"></div>
+					<div class="portfolio-gallery__grid-item web"><img src="img/gal-5.png" alt="Gallery" class="portfolio-gallery__grid-img"></div>
+					<div class="portfolio-gallery__grid-item print"><img src="img/gal-8.png" alt="Gallery" class="portfolio-gallery__grid-img"></div>
+					<div class="portfolio-gallery__grid-item web"><img src="img/gal-10.png" alt="Gallery" class="portfolio-gallery__grid-img"></div>
+					<div class="portfolio-gallery__grid-item print"><img src="img/gal-12.png" alt="Gallery" class="portfolio-gallery__grid-img"></div>
+					<div class="portfolio-gallery__grid-item web"><img src="img/gal-11.png" alt="Gallery" class="portfolio-gallery__grid-img"></div>
+					<div class="portfolio-gallery__grid-item print branding web"><img src="img/gal-9.png" alt="Gallery" class="portfolio-gallery__grid-img"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="team wow rollIn" id="team">
+		<div class="team__inner">
+			<h2 class="team__header">the team</h2>
+			<p class="team__desc">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+			<div class="team-slider">
+				<div class="team-slider__item">
+					<img src="img/team-1.png" alt="Abdullah Noman" class="team-slider__img">
+					<div class="team-slider__about">
+						<h3 class="team-slider__headline">Abdullah Noman</h3>
+						<p class="team-slider__position">Creative Director, Code Cafe</p>
+						<div class="team-slider__desc ">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
+
+						</div>
+					</div>
+				</div>
+				<div class="team-slider__item">
+					<img src="img/team-2.jpg" alt="Abdullah Noman" class="team-slider__img">
+					<div class="team-slider__about">
+						<h3 class="team-slider__headline">Мурзик Мурзикович Старший</h3>
+						<p class="team-slider__position">Повелитель людей в квартире 114</p>
+						<p class="team-slider__desc">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</p>
+					</div>
+				</div>
+				<div class="team-slider__item">
+					<img src="img/team-3.jpg" alt="Abdullah Noman" class="team-slider__img">
+					<div class="team-slider__about">
+						<h3 class="team-slider__headline">Пушистый кисун</h3>
+						<p class="team-slider__position">Шуршатель бумаги, Диван возле окна</p>
+						<p class="team-slider__desc">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="contacts-button wow rollIn">
+		<h2 class="contacts-button__headline">Already Loved Us? Let’s talk!</h2>
+		<a href="#contact" class="contacts-button__link">Contact Us</a>
+	</section>
+
+	<section class="testimonials wow flipInX">
+		<div class="testimonials__inner">
+			<h2 class="testimonials__header">testimonials</h2>
+			<p class="testimonials__desc">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+			<div class="testimonials-slider">
+				<div class="testimonials-slider__item">
+					<img src="img/testimonials-1.png" alt="Partho Noman" class="testimonials-slider__img">
+					<div class="testimonials-slider__about">
+						<p class="testimonials-slider__desc">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia. </p>
+						<h3 class="testimonials-slider__headline">Partho</h3>
+						<p class="testimonials-slider__position">Founder, Artways BD</p>
+					</div>
+				</div>
+				<div class="testimonials-slider__item">
+					<img src="img/testimonials-2.png" alt="Partho Noman" class="testimonials-slider__img">
+					<div class="testimonials-slider__about">
+						<p class="testimonials-slider__desc">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia.</p>
+						<h3 class="testimonials-slider__headline">Markiz</h3>
+						<p class="testimonials-slider__position">Founder, Artways BD</p>
+					</div>
+				</div>
+				<div class="testimonials-slider__item">
+					<img src="img/testimonials-3.png" alt="Partho Noman" class="testimonials-slider__img">
+					<div class="testimonials-slider__about">
+						<p class="testimonials-slider__desc">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia.</p>
+						<h3 class="testimonials-slider__headline">Vas`ka</h3>
+						<p class="testimonials-slider__position">Founder, Artways BD</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contacts wow fadeInUp" id="contact">
+		<h2 class="contacts__header">contact us</h2>
+		<p class="contacts__desc">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+		<div class="contacts__gmap" id="map">
+
+		</div>
+	</section>
+	<footer class="footer wow bounceInLeft">
+		<img src="img/footer-logo.png" alt="Bouncy" class="footer__logo">
+		<p class="footer__copyright">Copyright 2015. All rights Reserved</p>
+		<div class="social-buttons">
+			<a href="#" class="social-buttons__item social-buttons__item_fb "><i class="fa fa-facebook" aria-hidden="true"></i></a>
+			<a href="#" class="social-buttons__item social-buttons__item_twitter "><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			<a href="#" class="social-buttons__item social-buttons__item_linkedin "><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+			<a href="#" class="social-buttons__item social-buttons__item_instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			<a href="#" class="social-buttons__item social-buttons__item_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
+		</div>
+	</footer>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="scripts/slick.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+	<script src="scripts/script.js"></script>
+	<script src="https://use.fontawesome.com/405de5d5d1.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDw6-L2bWRU-vAGkPxStt57M3nFMY6tMY8&callback=initMap" type="text/javascript"></script>
+	<script src="scripts/jquery.gotop.js"></script>
+<!--	<script src="http://bigspotteddog.github.com/ScrollToFixed/jquery-scrolltofixed-min.js"></script>-->
+<script src="scripts/WOW.js"></script>
+              
+
+
+</body>
+
+</html>
