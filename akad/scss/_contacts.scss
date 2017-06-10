@@ -1,0 +1,125 @@
+.contacts {
+	background-color: #7beec7;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.get-in-touch {
+	&__headline {
+		color: #ffffff;
+		font-family: $font-Montserrat;
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 47px;
+		text-transform: uppercase;
+		margin: 0;
+		padding: 0;
+		margin-top: -10px;
+		margin-bottom: 16px;
+		margin-bottom: 16px;
+	}
+	&__button {
+		display: block;
+		width: 165px;
+		height: 49px;
+		background-color: #ffffff;
+		text-align: center;
+		color: #7beec7;
+		font-family: $font-Montserrat;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 49px;
+		text-transform: uppercase;
+		transition: all 200ms ease 100ms;
+		&:hover {
+			text-decoration: none;
+			color: #7beec7;
+			box-shadow: 5px 5px 15px #888888;
+		}
+	}
+}
+
+.newsletter {
+	background-color: #ffffff;
+	padding: 12px 25px;
+	&__headline {
+		margin: 0;
+		padding: 0;
+		color: #60606e;
+		font-family: $font-Montserrat;
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 37px;
+		text-transform: uppercase;
+	}
+	&__desc {
+		color: #999999;
+		font-family: $font-openSans;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+		margin-bottom: 28px;
+	}
+	&__form {
+		padding-bottom: 6px;
+	}
+	&__field {
+		width: 74%;
+		height: 50px;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		background-color: #ffffff;
+		color: #cdcdcd;
+		font-family: $font-Montserrat;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 50px;
+		text-transform: uppercase;
+		padding-left: 17px;
+		margin-left: -4px;
+	}
+	&__button {
+		width: 26.8%;
+		height: 50px;
+		background-color: #7beec7;
+		border: 0;
+		color: #ffffff;
+		font-family: $font-Montserrat;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 47px;
+		text-transform: uppercase;
+		transition: all 0.2s ease 0.2s;
+		margin-left: -4px;
+		&:hover {
+			opacity: 0.7;
+			transition: all 0.2s ease 0.2s;
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.get-in-touch {
+		padding-bottom: 30px;
+	}
+	.get-in-touch__button {
+		margin-left: auto;
+		margin-right: 0;
+	}
+	.newsletter__button {
+		width: 26.6%;
+	}
+}
+
+@media (min-width: 768px) {
+	.newsletter__button {
+		width: 26.6%;
+	}
+}
+
+@media (min-width: 992px) {
+	.newsletter__button {
+		width: 26.6%;
+	}
+}
+
+@media (min-width: 1200px) {}

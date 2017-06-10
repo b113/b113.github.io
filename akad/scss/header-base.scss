@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans');
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+* {
+  box-sizing: border-box; }
+
+@import '_variables';
+@import '_mixins';
+@import '_header';
+

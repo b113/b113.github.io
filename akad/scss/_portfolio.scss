@@ -1,0 +1,151 @@
+.portfolio {
+	padding-top: 119px;
+	padding-bottom: 122px;
+	&__headline {
+		text-align: center;
+		margin-bottom: 120px;
+	}
+	&__title {
+		color: #60606e;
+		font-family: $font-Montserrat;
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 48px;
+		text-transform: uppercase;
+		position: relative;
+		z-index: 1;
+		margin-top: 18px;
+		&::before {
+			content: "";
+			position: absolute;
+			width: 69px;
+			height: 21px;
+			background-color: #7beec7;
+			z-index: -1;
+			bottom: 5px;
+		}
+	}
+	&__desc {
+		width: 813px;
+		margin: 0 auto;
+		color: #60606e;
+		font-family: $font-openSans;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 24px;
+		margin-bottom: 19px;
+	}
+}
+
+.portfolio-gallery {
+	&__option {
+		color: #60606e;
+		font-family: $font-Montserrat;
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 48px;
+		text-transform: uppercase;
+		display: inline-block;
+		margin-top: -12px;
+		margin-bottom: 37px;
+	}
+	&__nav {
+		display: block;
+	}
+	&__nav-item {
+		display: block;
+		text-align: left;
+		color: #60606e;
+		font-family: $font-Montserrat;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 18px;
+		text-transform: uppercase;
+		background-color: #ffffff;
+		border: none;
+		text-decoration: none;
+		cursor: pointer;
+		position: relative;
+		margin-bottom: 22px;
+		padding-left: 20px;
+		padding-right: 20px;
+		transition: all 0.2s ease-in-out 0.2s;
+		&:focus {
+			background-color: #7beec7;
+			outline: 0;
+			color: #ffffff;
+			transition: all 0.1s ease 0.1s;
+		}
+		&:hover {
+			background-color: #7beec7;
+			color: #ffffff;
+			transition: all 0.2s ease 0.2s;
+		}
+	}
+	&__grid-item {
+		margin-bottom: 30px;
+	}
+}
+
+.is-checked {
+	background-color: #7beec7;
+	color: #ffffff;
+}
+
+.portfolio-gallery__grid-item,
+.grid-sizer {
+	width: 31%;
+}
+
+.gutter-sizer {
+	width: 30px;
+}
+
+@media (max-width: 767px) {
+	.portfolio__desc {
+		width: 100%;
+	}
+	.gutter-sizer {
+		width: 1%;
+	}
+	.portfolio-gallery__grid-item {
+		margin-bottom: 1%;
+	}
+}
+
+@media (min-width: 768px) {
+	.portfolio__desc {
+		width: 100%;
+	}
+	.gutter-sizer {
+		width: 1%;
+	}
+	.portfolio-gallery__grid-item {
+		margin-bottom: 1%;
+	}
+}
+
+@media (min-width: 992px) {
+	.portfolio__desc {
+		width: 100%;
+	}
+	.gutter-sizer {
+		width: 1%;
+	}
+	.portfolio-gallery__grid-item {
+		margin-bottom: 1%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.portfolio-gallery__grid-item,
+	.grid-sizer {
+		width: 31%;
+	}
+	.gutter-sizer {
+		width: 30px;
+	}
+	.portfolio-gallery__grid-item {
+		margin-bottom: 30px;
+	}
+}
