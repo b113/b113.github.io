@@ -1,0 +1,12 @@
+.footer {
+	border-top: 1px solid #e5e5e5;
+	&__copyright {
+		margin-top: 22px;
+		text-align: center;
+		color: #909090;
+		font-family: $ptSans;
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 36px;
+	}
+}

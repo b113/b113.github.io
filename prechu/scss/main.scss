@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Source+Sans+Pro');
+
+@media only screen and (max-width: 979px) {
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+
+
+
+@import '_variables';
+@import '_header';
+@import '_sign-up';
+@import '_services';
+@import '_cart';
+@import '_footer';
